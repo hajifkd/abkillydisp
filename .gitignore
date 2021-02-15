@@ -1,0 +1,4 @@
+node_modules
+.cache
+abkillydisp/content_script.js
+web-ext-artifacts

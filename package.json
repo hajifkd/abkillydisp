@@ -1,0 +1,17 @@
+{
+  "name": "abkillydisp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "content_script.ts",
+  "scripts": {
+    "build": "parcel build --no-source-maps -d abkillydisp src/content_script.ts",
+    "watch": "parcel watch --no-source-maps -d abkillydisp src/content_script.ts"
+  },
+  "author": "Hajime Fukuda",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.1.5",
+    "web-ext-types": "^3.2.1"
+  }
+}
